@@ -46,3 +46,27 @@ exports.checkThatDataDriverErrorGetsSent = function (test) {
         test.done();
     });
 };
+
+
+exports.checkThatOneDayOfDataIsReturned = function (test) {
+    var startDate = new Date(2014, 9, 1);
+    var endDate = new Date(2014, 9, 2);
+    var testEngine = {
+        getData: function (startDate, endDate, callback) {
+            callback(
+                null,
+                [
+                    {date: new Date(2014, 9, 1), value: 10}
+                ]
+            );
+        }
+    };
+
+    engine.generateReport(testEngine, startDate, endDate, function (err, data) {
+        test.ok(data);
+        test.equal(1, data.length);
+        test.equal(new Date(2014, 9, 1).getTime(), data[0].date.getTime());
+        test.equal(10, data[0].value);
+        test.done();
+    });
+};
