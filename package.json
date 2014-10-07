@@ -1,6 +1,6 @@
 {
     "name": "hooq-reporting",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Reporting engine for hooq",
     "main": "lib/index.js",
     "scripts": {
