@@ -9,7 +9,7 @@ Installing
 ==========
 
 ```bash
-npm install https://github.com/dwnz/hooq-reporting/archive/0.0.1.tar.gz --save
+npm install hooq-reporting --save
 ```
 
 Example Usage
