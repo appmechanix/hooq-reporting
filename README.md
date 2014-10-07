@@ -28,4 +28,5 @@ Methods
 =======
 
 .generateReport(driver, start date, end date, callback) - returns report data
+
 .daysBetween(start date, end date) - returns number of days between two dates
