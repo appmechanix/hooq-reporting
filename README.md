@@ -23,3 +23,9 @@ reportEngine.generateReport(reportDriver, new Date(2014,09,01), new Date(2014,09
     console.log(data);
 });
 ```
+
+Methods
+=======
+
+.generateReport(driver, start date, end date, callback) - returns report data
+.daysBetween(start date, end date) - returns number of days between two dates
