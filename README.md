@@ -19,7 +19,7 @@ Example Usage
 var reportEngine = require('hooq-reporting');
 var reportDriver = require('DRIVERNAME');
 
-reportEngine.generateReport(reportDriver, new Date(2014,09,01), new Date(2014,09,31), function(err, data) {
+reportEngine.generateReport(reportDriver, new Date(2014,09,01), new Date(2014,09,31), {filter} function(err, data) {
     console.log(data);
 });
 ```
@@ -27,6 +27,6 @@ reportEngine.generateReport(reportDriver, new Date(2014,09,01), new Date(2014,09
 Methods
 =======
 
-.generateReport(driver, start date, end date, callback) - returns report data
+.generateReport(driver, start date, end date, filter, callback) - returns report data
 
 .daysBetween(start date, end date) - returns number of days between two dates
