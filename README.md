@@ -1,7 +1,7 @@
 hooq-reporting
 ==============
 
-[![Circle CI](https://circleci.com/gh/dwnz/hooq-reporting/tree/master.svg?style=svg)](https://circleci.com/gh/dwnz/hooq-reporting/tree/master)
+[![Circle CI](https://circleci.com/gh/dwnz/hooq-reporting/tree/master.svg?style=svg&circle-token=a4936ceb5a4e8c2e1e9ebc190e28d6215e9456d9)](https://circleci.com/gh/dwnz/hooq-reporting/tree/master)
 
 Generates hit graph data for hooq/chartjs. Requires a driver to actually fetch data, so can be backed onto any data source.
 
