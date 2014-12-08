@@ -1,6 +1,8 @@
 hooq-reporting
 ==============
 
+[![Circle CI](https://circleci.com/gh/dwnz/hooq-reporting/tree/master.svg?style=svg)](https://circleci.com/gh/dwnz/hooq-reporting/tree/master)
+
 Generates hit graph data for hooq/chartjs. Requires a driver to actually fetch data, so can be backed onto any data source.
 
 There is a hooq driver you can look at - https://github.com/dwnz/hooq-reporting-drivers-mongo
